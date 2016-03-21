@@ -1,0 +1,9 @@
+package test.bridge;
+
+public class Man extends people{
+	public void Run(){
+		System.out.println("ÄÐÈË¿ª×Å");
+		car.Run();
+	}
+
+}
