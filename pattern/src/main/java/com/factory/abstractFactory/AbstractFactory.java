@@ -1,7 +1,14 @@
 package com.factory.abstractFactory;
-//抽象工厂类
-public abstract class AbstractFactory {
-  public abstract Vehicle createVehicle();
-  public abstract Weapon createWeapon();
-  public abstract Food createFood();
+
+public interface AbstractFactory {
+    /**
+     * 创建CPU对象
+     * @return CPU对象
+     */
+    public Cpu createCpu();
+    /**
+     * 创建主板对象
+     * @return 主板对象
+     */
+    public Mainboard createMainboard();
 }
